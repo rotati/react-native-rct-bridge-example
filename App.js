@@ -26,7 +26,6 @@ export default class App extends Component<{}> {
   }
 
   componentDidMount() {
-    // console.log("Hello ", this.state.name);
     HelloWorld.greeting("Nerrad!");
   }
 
